@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+  }
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --secondry-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+/* navstart */
+    .nav-link {
+        color: var(--bs-main-color);
+    }
+    .nav-link:hover{
+        color: var(--secondry-color);
+    }
+
+/* section 1 */
+.sectionmain{
+    height: 80vh;
+    position: relative;
+}
+.sectionmain .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.section-1-image{
+    width: 60%;
+    border-radius: 1rem;
+}
+.bg-color{
+    background-color: #1a1d20;
+}
+
+
+
+
+/* shape */
+.custom-shape-divider-bottom-1701517843 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1701517843 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 38px;
+}
+
+.custom-shape-divider-bottom-1701517843 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+.common-heading{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--secondry-color);
+    color: var(--bs-main-color);
+}
+
+
+
+
+/* more-information
+ */
+
+
+.more-information{
+    background:linear-gradient(rgba(66, 59, 62, 0.8),rgba(53, 51, 52, 0.8)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7oLZErfypWCU5_3iES3Kl-PhbB6Xds5sM7g&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.carousel-indicators {
+
+    bottom: -19px;
+}
+
+
+
+
+.carousel-indicators [data-bs-target] {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--bs-supporting-color);
+}
+
+/* .card:hover{
+    background-color: var(--bs-primary-color);
+} */
